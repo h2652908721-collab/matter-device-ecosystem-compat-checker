@@ -1,0 +1,70 @@
+{
+  "brand": "MatterCheck",
+  "tagline": "Real-world Matter device compatibility data",
+  "hero_headline": "Does your Matter device actually work in your ecosystem?",
+  "hero_sub": "Crowdsourced real-world compatibility data. See what works, what breaks, and why — across every device, ecosystem, and connection type.",
+  "pains": [
+    "Vendors claim Matter support, but you lose color temperature and grouping — buyer's remorse on day one",
+    "Same device, completely different behavior across Apple Home, SmartThings, and Home Assistant — which do you choose?",
+    "Firmware updates every month, compatibility shifts, and all online guides go stale — zero maintenance, zero accountability"
+  ],
+  "features": [
+    {
+      "title": "Bidirectional device search",
+      "desc": "Filter by ecosystem to find devices, or search devices to discover compatible platforms — match your setup fast"
+    },
+    {
+      "title": "Real-world feature mapping",
+      "desc": "Not just 'pairing works' — we show which features disappear, which edge cases break, and what's a known gotcha"
+    },
+    {
+      "title": "User-tested data",
+      "desc": "Built from real user testing, not vendor claims — live database that updates with firmware changes"
+    },
+    {
+      "title": "Firmware variance tracking",
+      "desc": "See how the same model behaves across firmware versions — avoid breaking updates before they hit"
+    }
+  ],
+  "how": [
+    {
+      "step": "Pick your ecosystem",
+      "desc": "Apple Home, SmartThings, or Home Assistant"
+    },
+    {
+      "step": "Search device compatibility",
+      "desc": "Enter device model, see what works and what fails in your ecosystem"
+    },
+    {
+      "step": "Read user feedback",
+      "desc": "Check real owner reviews, firmware gotchas, and proven workarounds"
+    }
+  ],
+  "proof": "Early testers are building this database right now. Your feedback decides which devices we prioritize next.",
+  "cta": "Join beta",
+  "cta_sub": "Free for beta testers. Help us complete the data, get lifetime access.",
+  "faq": [
+    {
+      "q": "How is this different from official compatibility lists?",
+      "a": "Official lists say 'Matter compatible.' We show what actually breaks, which ecosystems fail, and why — real usability."
+    },
+    {
+      "q": "How often is the data updated?",
+      "a": "Real-time crowdsourced updates. We aggregate firmware and OS changes weekly — no stale official docs."
+    },
+    {
+      "q": "Which devices are covered right now?",
+      "a": "Beta covers Philips Hue, Eve, Nanoleaf, and major hubs. More added weekly based on user demand."
+    }
+  ],
+  "seo_pages": [
+    "Philips Hue on Home Assistant: what works, what breaks",
+    "Eve Matter devices on Apple Home: why automation is limited",
+    "Matter Thread border router: which hub has the best compatibility",
+    "Nanoleaf on SmartThings: grouping and automation limits",
+    "Matter device won't pair after firmware update: troubleshooting",
+    "Matter over Thread vs WiFi: stability and reliability compared"
+  ],
+  "disclaimer": "This tool provides reference information only. Actual compatibility depends on current official device and hub firmware versions.",
+  "lang": "en"
+}

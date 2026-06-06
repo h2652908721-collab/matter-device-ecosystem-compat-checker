@@ -1,6 +1,6 @@
-<!doctype html><html lang="zh-CN"><head>
+<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>智家兼容库 — Matter 设备真实兼容查询工具</title><link rel="canonical" href="https://h2652908721-collab.github.io/matter-device-ecosystem-compat-checker/"><meta name="description" content="Matter 设备真实兼容查询工具"><meta property="og:type" content="website"><meta property="og:title" content="智家兼容库 — Matter 设备真实兼容查询工具"><meta property="og:description" content="Matter 设备真实兼容查询工具"><meta property="og:url" content="https://h2652908721-collab.github.io/matter-device-ecosystem-compat-checker/">
+<title>MatterCheck — Real-world Matter device compatibility data</title>
 <style>
 :root{--ink:#1a1410;--bg:#fbf7f0;--card:#fff;--brand:#c2410c;--brand2:#ea580c;
 --muted:#7c6f64;--line:#ece3d6;--space:clamp(3.5rem,2rem+6vw,7rem)}
@@ -61,31 +61,31 @@ footer{padding:48px 0;color:var(--muted);font-size:.85rem;border-top:1px solid v
 </style><script data-goatcounter="https://friday-lab.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head><body>
 <div class="wrap">
-<header><div class="logo">🍜 智家兼容库</div><a class="nav-cta" href="#join">加入内测</a></header>
+<header><div class="logo">🍜 MatterCheck</div><a class="nav-cta" href="#join">Join beta</a></header>
 <div class="hero">
-<span class="badge">Matter 设备真实兼容查询工具</span>
-<h1><span class="hl">你买的 Matter 设备，在你的生态里真的能用吗？</span></h1>
-<p class="sub">不靠官方标称，靠用户众包的真实兼容性数据库——每个设备×生态×连接方式的实际功能和坑都有</p>
+<span class="badge">Real-world Matter device compatibility data</span>
+<h1><span class="hl">Does your Matter device actually work in your ecosystem?</span></h1>
+<p class="sub">Crowdsourced real-world compatibility data. See what works, what breaks, and why — across every device, ecosystem, and connection type.</p>
 <div id="join" class="cta-row">
-<form class="form" action="https://formsubmit.co/2734e0f49605680196bfc44f5cca0531" method="POST"><input type="hidden" name="_subject" value="智家兼容库 — 新内测申请"><input type="hidden" name="_captcha" value="false"><input type="hidden" name="_template" value="table"><input type="email" name="email" required placeholder="留个邮箱,抢先体验"><button type="submit">加入内测</button></form></div>
-<p class="cta-sub">首批免费，帮我们完善数据库，获得终身访问权</p>
+<form class="form" action="https://formsubmit.co/2734e0f49605680196bfc44f5cca0531" method="POST"><input type="hidden" name="_subject" value="MatterCheck — early access request"><input type="hidden" name="_captcha" value="false"><input type="hidden" name="_template" value="table"><input type="email" name="email" required placeholder="Enter your email for early access"><button type="submit">Join beta</button></form></div>
+<p class="cta-sub">Free for beta testers. Help us complete the data, get lifetime access.</p>
 </div></div>
 <div class="pains"><div class="wrap">
-<h2>每天都在踩的坑</h2><p class="lead">这些事,现在没人帮你整合</p>
-<ul><li>官网说支持 Matter，实际却丢色温/分组，一买就踩坑</li><li>同一设备在 Apple/SmartThings/Home Assistant 表现天差地别，不知道咋选</li><li>固件月月更新，兼容性变了，网上信息都过时，无人维护</li></ul></div></div>
+<h2>What you keep running into</h2><p class="lead">No one's pulled this together for you</p>
+<ul><li>Vendors claim Matter support, but you lose color temperature and grouping — buyer's remorse on day one</li><li>Same device, completely different behavior across Apple Home, SmartThings, and Home Assistant — which do you choose?</li><li>Firmware updates every month, compatibility shifts, and all online guides go stale — zero maintenance, zero accountability</li></ul></div></div>
 <div class="wrap">
-<section class="block"><div class="eyebrow">我们替你搞定</div>
-<h2 class="t">一个地方,全搞定</h2><div class="cards"><div class="card"><h3>双向设备筛选</h3><p>按生态选设备，或按设备查生态——快速找到最适合你的方案</p></div><div class="card"><h3>真实功能对比</h3><p>不只说能配对，还清楚标注会丢哪个功能、有哪些已知坑</p></div><div class="card"><h3>众包实测数据</h3><p>基于用户真实测试反馈，而非官方标称——活数据持续更新</p></div><div class="card"><h3>固件版本追踪</h3><p>同型号不同固件版本的兼容性差异，避免升级后出问题</p></div></div></section>
-<section class="block"><div class="eyebrow">三步上手</div>
-<h2 class="t">怎么用</h2><div class="steps"><div class="step"><span class="n">1</span><div><b>选择你的生态</b><p>Apple 家庭/SmartThings/Home Assistant 之一</p></div></div><div class="step"><span class="n">2</span><div><b>查询设备兼容</b><p>输入设备型号，看它在你的生态里能做什么、丢什么</p></div></div><div class="step"><span class="n">3</span><div><b>看用户反馈</b><p>查看已购用户的真实体验、固件版本坑和解决方案</p></div></div></div></section>
-<div class="proof"><p>首批内测用户正在众包真实数据，你的反馈将决定我们优先支持哪些设备</p></div>
-<section class="block"><div class="eyebrow">常见问题</div>
-<h2 class="t">你可能想问</h2><details><summary>和官方兼容列表差在哪？</summary><p>官方只说支持 Matter，我们说实际丢什么、哪些生态有坑——这就是真实可用性</p></details><details><summary>数据多久更新？</summary><p>基于用户众包实时反馈，每周汇总系统/固件版本变化，不再靠官方过时信息</p></details><details><summary>现在覆盖哪些产品？</summary><p>首批内测重点覆盖 Philips Hue/Eve/Nanoleaf 等高频设备和主流控制器</p></details></section>
+<section class="block"><div class="eyebrow">We handle it</div>
+<h2 class="t">Everything in one place</h2><div class="cards"><div class="card"><h3>Bidirectional device search</h3><p>Filter by ecosystem to find devices, or search devices to discover compatible platforms — match your setup fast</p></div><div class="card"><h3>Real-world feature mapping</h3><p>Not just 'pairing works' — we show which features disappear, which edge cases break, and what's a known gotcha</p></div><div class="card"><h3>User-tested data</h3><p>Built from real user testing, not vendor claims — live database that updates with firmware changes</p></div><div class="card"><h3>Firmware variance tracking</h3><p>See how the same model behaves across firmware versions — avoid breaking updates before they hit</p></div></div></section>
+<section class="block"><div class="eyebrow">3 steps</div>
+<h2 class="t">How it works</h2><div class="steps"><div class="step"><span class="n">1</span><div><b>Pick your ecosystem</b><p>Apple Home, SmartThings, or Home Assistant</p></div></div><div class="step"><span class="n">2</span><div><b>Search device compatibility</b><p>Enter device model, see what works and what fails in your ecosystem</p></div></div><div class="step"><span class="n">3</span><div><b>Read user feedback</b><p>Check real owner reviews, firmware gotchas, and proven workarounds</p></div></div></div></section>
+<div class="proof"><p>Early testers are building this database right now. Your feedback decides which devices we prioritize next.</p></div>
+<section class="block"><div class="eyebrow">FAQ</div>
+<h2 class="t">You might be wondering</h2><details><summary>How is this different from official compatibility lists?</summary><p>Official lists say 'Matter compatible.' We show what actually breaks, which ecosystems fail, and why — real usability.</p></details><details><summary>How often is the data updated?</summary><p>Real-time crowdsourced updates. We aggregate firmware and OS changes weekly — no stale official docs.</p></details><details><summary>Which devices are covered right now?</summary><p>Beta covers Philips Hue, Eve, Nanoleaf, and major hubs. More added weekly based on user demand.</p></details></section>
 <div class="foot-cta" id="join2">
-<h2>你买的 Matter 设备，在你的生态里真的能用吗？</h2>
-<form class="form" action="https://formsubmit.co/2734e0f49605680196bfc44f5cca0531" method="POST"><input type="hidden" name="_subject" value="智家兼容库 — 新内测申请"><input type="hidden" name="_captcha" value="false"><input type="hidden" name="_template" value="table"><input type="email" name="email" required placeholder="留个邮箱,抢先体验"><button type="submit">加入内测</button></form>
-<p class="cta-sub">首批免费，帮我们完善数据库，获得终身访问权</p>
-<div class="seo"><span>Philips Hue 在 Home Assistant 上能用吗，会丢哪些功能</span><span>Eve 设备支持 Matter，但为什么 Apple 家庭里缺少自动化</span><span>Matter 新设备选哪个 border router，兼容性最稳定</span><span>Nanoleaf 在 SmartThings 上支持多少路分组控制</span><span>Matter 设备固件更新后突然不配对，怎么回事</span><span>同一设备 Thread 和 WiFi 配对哪个更稳定可靠</span></div>
+<h2>Does your Matter device actually work in your ecosystem?</h2>
+<form class="form" action="https://formsubmit.co/2734e0f49605680196bfc44f5cca0531" method="POST"><input type="hidden" name="_subject" value="MatterCheck — early access request"><input type="hidden" name="_captcha" value="false"><input type="hidden" name="_template" value="table"><input type="email" name="email" required placeholder="Enter your email for early access"><button type="submit">Join beta</button></form>
+<p class="cta-sub">Free for beta testers. Help us complete the data, get lifetime access.</p>
+<div class="seo"><span>Philips Hue on Home Assistant: what works, what breaks</span><span>Eve Matter devices on Apple Home: why automation is limited</span><span>Matter Thread border router: which hub has the best compatibility</span><span>Nanoleaf on SmartThings: grouping and automation limits</span><span>Matter device won't pair after firmware update: troubleshooting</span><span>Matter over Thread vs WiFi: stability and reliability compared</span></div>
 </div>
-<footer><p style="margin-bottom:10px">⚠️ 本站为设备兼容性信息参考工具，具体兼容性以设备与控制器官方最新版本为准</p>© 智家兼容库 · 验证页(内测招募中) · 这是一个需求验证落地页</footer>
+<footer><p style="margin-bottom:10px">⚠️ This tool provides reference information only. Actual compatibility depends on current official device and hub firmware versions.</p>© MatterCheck · Beta — demand-validation page</footer>
 </div></div></body></html>
